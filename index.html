@@ -1,364 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-<link rel="stylesheet" href="css/estilos.css">
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Jquery mobile-->
-<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
-<script src="js/jquery.js"></script>
-<script src="js/jquery.mobile.min.js"></script>
-<!-- flex slider-->
-<link rel="stylesheet" type="text/css" href="css/flexslider.css">
-  <script src="js/jquery.flexslider.js"></script>
-  <script>
-    $(window).load(function() {
-      $('.flexslider').flexslider({
-        animation: "slide"  
-      });
-    });
-  </script>
 </head>
 <body>
-  
-    <!--Primer pagina-->
-    <div data-role="page" id="inicio">
+	<div id="contenedora">
+		<section>
+			<nav>
+				<ul>
+					<li><a href="#bloque2">seccion 2</a></li>
+					<li><a href="#bloque3">seccion 3</a></li>
+					<li><a href="#bloque4">seccion 4</a></li>
+				</ul>
+			</nav>
+			<img id="ima5" src="img/ima6.png" width="400">
+			<h1>Efecto Parallax con CSS3</h1>
+		</section>
+		<section id="bloque2">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.
+			</p>
+			
+		</section>
+		<section id="bloque3">
+			<h2>Creacion profresional de paginas</h2>
+			
+		</section>
+		<section id="bloque4">
+			<h2>Hasta pronto</h2>
+			<div id="shidori">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9-eUtyQ6IrLYJJeL3vM9dMUquaaG_m29Ue5-AQaKS2FujAw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+			</div>
 
-          <!--encabezado-->
-          <div data-role="header" data-theme="b">
-              <h1>Cabecera</h1>
-              <a href="#">Enlace</a>
-              <a href="#">Enlace</a>
-          </div>
-           <!-- flex slider-->
-<div id="conteneflex">
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          <img src="img/copia1.png"/>
-        </li>
-        <li>
-          <img src="img/copia2.png"/>
-        </li>
-        <li>
-          <img src="img/copia3.png"/>
-        </li>
-        
-      </ul>
-      
-    </div>
-  </div>
-          <!-- cuerpo-->
-          <div data-role="content">
-              <a href="#servicios" data-role="button">Servicios</a>
-              <a href="#listas" data-role="button">Bolsa de Empleo</a>
-              <a href="https://goo.gl/forms/oWar2P8LVnlmDKgV2" data-role="button">Formulario</a>
-
-              <a href="#formulario" data-role="button"> Formulario2</a>
-
-              <div data-role="navbar" >
-                <ul>
-                  <li><a href="#" data-theme="b">boton1</a></li>
-                  <li><a href="#">boton2</a></li>
-                  <li><a href="#">boton3</a></li>
-                  <li><a href="#">boton4</a></li>
-                  <li><a href="#">boton3</a></li>
-                  <li><a href="#">boton4</a></li>
-                </ul>
-              </div>
-
-              <h2>Transiciones</h2>
-              <a href="#servicios" data-role="button" data-transition="fade">fade</a>
-              <a href="#servicios" data-role="button" data-transition="flip">flip</a>
-              <a href="#servicios" data-role="button" data-transition="slide">slide</a>
-              <a href="#servicios" data-role="button" data-transition="fade">fade</a>
-              <a href="#servicios" data-role="button" data-transition="pop">pop</a>
-              <a href="#servicios" data-role="button" data-transition="slideup">slideup</a>
-              <a href="#servicios" data-role="button" data-transition="slidedown">slidedown</a>
-
-              <div id="seccion1">
-                <h2>Seccion</h2>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="home">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="delete">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="plus">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="arrow-u">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="arrow-d">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="check">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="gear">iconos</a>
-
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="grid">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="star">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="custom">iconos</a>
-                <a href="#servicios" data-role="button" data-theme="a" data-icon="arrow-r ">iconos</a>
-              </div>
-
-              <h2>Seccion</h2>
-
-              <div data-role="controlgroup">
-                <a href="index.html" data-role="button">Yes</a>
-                <a href="index.html" data-role="button">No</a>
-                <a href="index.html" data-role="button">Maybe</a>
-              </div>
-
-
-                </div>
-                <!--pie de pagina-->
-                <div data-role="footer" data-theme="b">
-                    <h2>Pie de pagina</h2>
-                </div>
-    </div>
- 
-
-
-
-<!-- pagina servicios-->
-
-   <div data-role="page" id="servicios">
-          <div data-role="header">
-            <h1>Buscar un Servicio</h1>
-          </div>
-
-          <div data-role="content">
-            
-            <div data-role="collapsible" data-collapsed="false">
-            <h2>Contenido 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            </div>
-
-            <div data-role="collapsible" >
-             <h2>Contenido 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <div data-role="controlgroup">
-                <a href="index.html" data-role="button">Yes</a>
-                <a href="index.html" data-role="button">No</a>
-                <a href="index.html" data-role="button">Maybe</a>
-              </div>
-
-            </div>
-
-            <div data-role="collapsible" >
-             <h2>Servicios Hogar</h2>
-           
-
-            <a href="index.html" data-role="button"><img src="ima/electrico.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="ima/estilista.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="ima/mecanico.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="ima/tutor.png" width="250"></a>
-            </div>
-
-          </div>
-
-          <h2>collapsible set</h2>
-
-          <div data-role="collapsible-set">
-
-          <div data-role="collapsible" data-collapsed="false">
-            <h2>Contenido 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            </div>
-
-            <div data-role="collapsible" >
-             <h2>Contenido 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-
-            <div data-role="controlgroup">
-                <a href="index.html" data-role="button">Yes</a>
-                <a href="index.html" data-role="button">No</a>
-                <a href="index.html" data-role="button">Maybe</a>
-              </div>
-
-            </div>
-
-            <div data-role="collapsible" >
-             <h2>Servicios Hogar</h2>
-           
-
-            <a href="index.html" data-role="button"><img src="img/electrico.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="img/estilista.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="img/mecanico.png" width="250"></a>
-            <a href="index.html" data-role="button"><img src="img/tutor.png" width="250"></a>
-            </div>
-
-          </div>
-
-          </div>
-
-          <div data-role="footer">
-            <h2>pie de pagina</h2>
-          </div>
-     
-   </div>
-
-
-   <!--pagina de listas-->
-
-   <div data-role="page" id="listas">
-
-      <div data-role="header">
-        <h1> listas</h1>
-        
-      </div>
-      <div data-role="content">
-
-          <h2>Servicio 1</h2>
-          <ul data-role="listview" data-inset="true" data-filter="true">
-            <li data-role="list-divider"> sericios listas</li>
-            <li><a href="">Electricistas</a></li>
-            <li><a href="">costurera</a></li>
-            <li>maestros</li>
-            <li>diseñadores</li>
-            <li data-role="list-divider"> sericios listas 2</li>
-            <li>carpinteros</li>
-            <li>contador</li>
-            <li>mecanico</li>
-            <li>pintor</li>
-          </ul>
-
-
-            <h2>Servicio 1</h2>
-           <ul data-role="listview">
-            <li>Electricistas</li>
-            <li>costurera</li>
-            <li>maestros</li>
-            <li>diseñadores</li>
-            <li>carpinteros</li>
-            <li>contador</li>
-            <li>mecanico</li>
-            <li>pintor</li>
-          </ul>
-
-        
-      </div>
-      <div data-role="footer">
-        <a href="#inicio">regresar</a>
-        
-      </div>     
-   </div>
-<!-- pagina nueva-->
-    <div data-role="page" id="formulario">
-      <div data-role="header">
-        <h2>Formulario</h2>
-        
-      </div>
-
-      <div data-role="content">
-        <form id="contacto" action="#" method="post">
-          <input type="text" name="" placeholder="Nombre de usuario" required="">
-          <input type="email" name="" placeholder="Escribe tu correo" required="">
-          <label>Escoge tu pais</label>
-          <select>
-            <option>Honduras</option>
-            <option>Nicaragua</option>
-            <option>Costa Rica</option>
-            <option>Guatemala</option>
-            <option>El Salvador</option>
-          </select>
-          <textarea placeholder="Escribe tu comentario" required="">
-          </textarea>
-          <input type="submit" name="" value="Enviar">
-
-          <label>Escoge un navegador</label>
-          <input list="Navegador" name="Navegador">
-          <datalist id="Navegador">
-            <option value="Internet Explorer"></option>
-            <option value="Firefox"></option>
-            <option value="Chrome"></option>
-            <option value="Opera"></option>
-            <option value="Safari"></option>
-            </datalist>
-          
-          <input type="submit" name="" value="Enviar">
-
-          <label>Escoge un rango</label>
-          <input type="range" id="a" name="a" min="0" max="10">
-          <input type="submit" name="" value="Enviar">
-
-          <label>Valor Numero</label>
-          <input type="number" id="b" name="b" value="5" min="0" max="10">
-
-          <label>Contraseña</label>
-          <input type="password" name="psw" placeholder="Contraseña">
-          <input type="submit" name="" value="Enviar">
-
-          <input type="radio" name="gender" value="male" checked="">
-          <h2>Hombre</h2> <br>
-           <input type="radio" name="gender" value="female" checked="">
-          <h2>Mujer</h2> <br>
-           <input type="radio" name="gender" value="other" checked="">
-          <h2>Otros</h2><br>
-
-          <input type="color" name="favcolor">
-          <br><br><br>
-
-          <input type="date" name="" placeholder="Escoge una fecha">
-          
-          <br><br>
-          <input type="datetime-local" name="Cumpleaños">
-
-          <br><br>
-          Seleccione un archivo:<input type="file" name="myFile">
-
-          <input type="month" name="bdaymonth">
-
-          Buscar em Google:
-          <input type="search" name="googlesearch">
-
-          Telephone:
-          <input type="tel" name="usrtel">
-
-          Hora:
-          <input type="time" name="usr_time">
-
-          Pagina Web:
-          <input type="url" name="homepage">
-
-          Semana:
-          <input type="week" name="week_year">
-          
-          <input type="submit" name="" value="Enviar">
-          <input type="reset" name="" value="Borrar">
-        </form>
-        
-      </div>
-
-      <div data-role="footer">
-        <h2>Pie de pagina</h2>
-        
-      </div>
-    </div>
-
+			
+		</section>
+		
+	</div>
 
 </body>
 </html>
